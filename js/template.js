@@ -10,7 +10,9 @@
 (function($){
 	$(document).ready(function(){
 	
-		$(".banner-image").backstretch('images/banner1.jpg');
+		particlesJS.load('particles', 'js/particles.json', function() {});
+		
+		$(".banner-image").backstretch('images/background1.png');
 		
 		// Fixed header
 		//-----------------------------------------------
